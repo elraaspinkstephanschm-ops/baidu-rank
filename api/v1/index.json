@@ -1,0 +1,72 @@
+{
+ "ok": true,
+ "generated_at": "2026-10-26 20:21",
+ "platform": "百度",
+ "board_count": 3,
+ "note": "3 个榜单，每榜 = 漫剧 + AI剧 合并，名次各自独立（各 1-50）",
+ "boards": [
+  {
+   "board_code": "hot",
+   "board": "热播榜",
+   "latest_date": "20261026",
+   "count": 100,
+   "history_dates": [
+    "20261020",
+    "20261021",
+    "20261022",
+    "20261023",
+    "20261024",
+    "20261025",
+    "20261026"
+   ],
+   "history_count": 701,
+   "json": "api/v1/hot.json",
+   "js": "api/v1/hot.js",
+   "history_json": "api/v1/hot_history.json",
+   "breakdown": {
+    "manju-rebo": 50,
+    "aiju-rebo": 50
+   }
+  },
+  {
+   "board_code": "new",
+   "board": "新剧榜",
+   "latest_date": "20261026",
+   "count": 100,
+   "history_dates": [
+    "20261021",
+    "20261022",
+    "20261023",
+    "20261024",
+    "20261025",
+    "20261026"
+   ],
+   "history_count": 600,
+   "json": "api/v1/new.json",
+   "js": "api/v1/new.js",
+   "history_json": "api/v1/new_history.json",
+   "breakdown": {
+    "manju-xinju": 50,
+    "aiju-xinju": 50
+   }
+  },
+  {
+   "board_code": "classic",
+   "board": "经典榜",
+   "latest_date": "20261026",
+   "count": 100,
+   "history_dates": [
+    "20261021",
+    "20261026"
+   ],
+   "history_count": 199,
+   "json": "api/v1/classic.json",
+   "js": "api/v1/classic.js",
+   "history_json": "api/v1/classic_history.json",
+   "breakdown": {
+    "manju-jingdian": 50,
+    "aiju-jingdian": 50
+   }
+  }
+ ]
+}
