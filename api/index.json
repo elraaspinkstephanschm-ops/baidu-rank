@@ -1,0 +1,118 @@
+{
+  "code": 0,
+  "message": "ok",
+  "generated_at": "2026-10-26 20:14",
+  "platform": "百度",
+  "channel": "短剧",
+  "board_count": 6,
+  "boards": [
+    {
+      "slug": "manju-jingdian",
+      "rank_name": "漫剧-经典榜",
+      "type": "漫剧",
+      "board": "经典榜",
+      "latest_date": "20261026",
+      "latest_rows": 50,
+      "history_dates": [
+        "20261021",
+        "20261026"
+      ],
+      "json_path": "/api/rank/manju-jingdian.json",
+      "js_path": "/api/rank/manju-jingdian.js",
+      "history_pattern": "/api/history/manju-jingdian/{YYYYMMDD}.json"
+    },
+    {
+      "slug": "manju-rebo",
+      "rank_name": "漫剧-热播榜",
+      "type": "漫剧",
+      "board": "热播榜",
+      "latest_date": "20261026",
+      "latest_rows": 50,
+      "history_dates": [
+        "20261020",
+        "20261021",
+        "20261022",
+        "20261023",
+        "20261024",
+        "20261025",
+        "20261026"
+      ],
+      "json_path": "/api/rank/manju-rebo.json",
+      "js_path": "/api/rank/manju-rebo.js",
+      "history_pattern": "/api/history/manju-rebo/{YYYYMMDD}.json"
+    },
+    {
+      "slug": "manju-xinju",
+      "rank_name": "漫剧-新剧榜",
+      "type": "漫剧",
+      "board": "新剧榜",
+      "latest_date": "20261026",
+      "latest_rows": 50,
+      "history_dates": [
+        "20261021",
+        "20261022",
+        "20261023",
+        "20261024",
+        "20261025",
+        "20261026"
+      ],
+      "json_path": "/api/rank/manju-xinju.json",
+      "js_path": "/api/rank/manju-xinju.js",
+      "history_pattern": "/api/history/manju-xinju/{YYYYMMDD}.json"
+    },
+    {
+      "slug": "aiju-jingdian",
+      "rank_name": "AI剧-经典榜",
+      "type": "AI剧",
+      "board": "经典榜",
+      "latest_date": "20261026",
+      "latest_rows": 50,
+      "history_dates": [
+        "20261021",
+        "20261026"
+      ],
+      "json_path": "/api/rank/aiju-jingdian.json",
+      "js_path": "/api/rank/aiju-jingdian.js",
+      "history_pattern": "/api/history/aiju-jingdian/{YYYYMMDD}.json"
+    },
+    {
+      "slug": "aiju-rebo",
+      "rank_name": "AI剧-热播榜",
+      "type": "AI剧",
+      "board": "热播榜",
+      "latest_date": "20261026",
+      "latest_rows": 50,
+      "history_dates": [
+        "20261020",
+        "20261021",
+        "20261022",
+        "20261023",
+        "20261024",
+        "20261025",
+        "20261026"
+      ],
+      "json_path": "/api/rank/aiju-rebo.json",
+      "js_path": "/api/rank/aiju-rebo.js",
+      "history_pattern": "/api/history/aiju-rebo/{YYYYMMDD}.json"
+    },
+    {
+      "slug": "aiju-xinju",
+      "rank_name": "AI剧-新剧榜",
+      "type": "AI剧",
+      "board": "新剧榜",
+      "latest_date": "20261026",
+      "latest_rows": 50,
+      "history_dates": [
+        "20261021",
+        "20261022",
+        "20261023",
+        "20261024",
+        "20261025",
+        "20261026"
+      ],
+      "json_path": "/api/rank/aiju-xinju.json",
+      "js_path": "/api/rank/aiju-xinju.js",
+      "history_pattern": "/api/history/aiju-xinju/{YYYYMMDD}.json"
+    }
+  ]
+}

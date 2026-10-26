@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>百度漫剧 / AI剧 榜单 API</title>
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box}
+  body{margin:0;padding:32px 20px 56px;background:#f5f6fa;color:#1f2329;
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:1080px;margin:0 auto}
+  h1{margin:0 0 6px;font-size:22px;font-weight:600;letter-spacing:.2px}
+  .sub{margin:0 0 28px;font-size:13px;color:#646a73}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+  .card{background:#fff;border:1px solid #e5e6eb;border-radius:12px;padding:18px 20px}
+  .card h2{margin:0 0 10px;font-size:15px;font-weight:600}
+  .tag{display:inline-block;margin-bottom:8px;padding:1px 8px;border-radius:20px;
+       font-size:11px;background:#eef3fe;color:#2b5fd9}
+  .tag.ai{background:#f3eefc;color:#7a3fd0}
+  .row{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:#646a73;
+       padding:6px 0;border-top:1px solid #f2f3f5}
+  .row b{font-weight:500;color:#1f2329}
+  a{color:#2b5fd9;text-decoration:none;font-size:12px}
+  a:hover{text-decoration:underline}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;
+       background:#f5f6fa;padding:1px 5px;border-radius:4px;color:#4e5969}
+  .foot{margin-top:28px;padding-top:18px;border-top:1px solid #e5e6eb;font-size:12px;color:#646a73;line-height:1.9}
+  .foot b{color:#1f2329;font-weight:500}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+  .bar a{padding:6px 12px;border:1px solid #e5e6eb;border-radius:8px;background:#fff;color:#1f2329}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>百度漫剧 / AI剧 榜单 API</h1>
+  <p class="sub" id="sub">加载中…</p>
+  <div class="bar">
+    <a href="api/index.json">总索引 index.json</a>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="foot">
+    <b>接口约定</b><br>
+    单榜最新：<code>api/rank/{slug}.json</code>　·　JS 版（跨域可用）：<code>api/rank/{slug}.js</code><br>
+    历史某期：<code>api/history/{slug}/{YYYYMMDD}.json</code>　·　全榜目录：<code>api/index.json</code><br>
+    <b>字段</b>：rank_no 名次 · title 剧名 · series_type 类型（漫剧/AI剧）· theme 题材 · episodes 集数 ·
+    heat/heat_value 热度（万）· rank_prev 上期名次 · trend_text 趋势 · description 简介<br>
+    另附旧字段别名 rank / hot / hot_num / 剧名 / 榜单 / date，两套映射都能对上。<br>
+    漫剧与 AI剧 名次各自独立（各 1–50）。经典榜为周更，热播榜/新剧榜为日更。
+  </div>
+</div>
+<script>
+fetch('api/index.json').then(r => r.json()).then(d => {
+  const fmt = s => s ? s.slice(0,4)+'-'+s.slice(4,6)+'-'+s.slice(6) : '—';
+  document.getElementById('sub').textContent =
+    d.board_count + ' 个榜单 · 更新于 ' + d.generated_at + ' · 数据源：百度 App 短剧榜单';
+  document.getElementById('grid').innerHTML = d.boards.map(b => `
+    <div class="card">
+      <span class="tag${b.type === 'AI剧' ? ' ai' : ''}">${b.type}</span>
+      <h2>${b.rank_name}</h2>
+      <div class="row"><span>最新日期</span><b>${fmt(b.latest_date)}</b></div>
+      <div class="row"><span>条数</span><b>${b.latest_rows ?? '—'}</b></div>
+      <div class="row"><span>历史期数</span><b>${b.history_dates.length}</b></div>
+      <div class="row"><span>首期</span><b>${fmt(b.history_dates[0])}</b></div>
+      <div class="row"><span>接口</span><a href="${b.json_path.replace(/^\//,'')}">${b.json_path}</a></div>
+    </div>`).join('');
+}).catch(e => {
+  document.getElementById('sub').textContent = '索引加载失败：' + e.message;
+});
+</script>
+</body>
+</html>
