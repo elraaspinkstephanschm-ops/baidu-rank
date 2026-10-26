@@ -40,29 +40,30 @@
   </div>
   <div class="grid" id="grid"></div>
   <div class="foot">
-    <b>接口约定</b><br>
-    单榜最新：<code>api/rank/{slug}.json</code>　·　JS 版（跨域可用）：<code>api/rank/{slug}.js</code><br>
-    历史某期：<code>api/history/{slug}/{YYYYMMDD}.json</code>　·　全榜目录：<code>api/index.json</code><br>
-    <b>字段</b>：rank_no 名次 · title 剧名 · series_type 类型（漫剧/AI剧）· theme 题材 · episodes 集数 ·
-    heat/heat_value 热度（万）· rank_prev 上期名次 · trend_text 趋势 · description 简介<br>
-    另附旧字段别名 rank / hot / hot_num / 剧名 / 榜单 / date，两套映射都能对上。<br>
-    漫剧与 AI剧 名次各自独立（各 1–50）。经典榜为周更，热播榜/新剧榜为日更。
+    <b>三个接口，一榜一链接</b><br>
+    <code>api/v1/hot.json</code> 热播榜　·　<code>api/v1/new.json</code> 新剧榜　·　<code>api/v1/classic.json</code> 经典榜<br>
+    全历史拍平：<code>api/v1/{榜}_history.json</code>　·　总索引：<code>api/v1/index.json</code>　·　跨域用 <code>.js</code> 版本<br>
+    <b>合并规则</b>：每榜 = 漫剧 50 条 + AI剧 50 条，共 100 条；<b>名次不变</b>，漫剧 1–50、AI剧 1–50 各自独立，
+    所以第 1 名会出现两次。排列顺序为漫剧在前、AI剧在后；要做全局名次请按 <code>hot_num</code> 重排。<br>
+    <b>字段</b>：rank 名次 · title 剧名 · cat 类型 · genre 题材 · eps 集数 · hot 热度（万）·
+    hot_num 热度整数 · desc 简介 · board 榜单 · date 日期，另附 rank_no/heat/heat_value 等标准别名。<br>
+    经典榜为周更，热播榜/新剧榜为日更。
   </div>
 </div>
 <script>
-fetch('api/index.json').then(r => r.json()).then(d => {
+fetch('api/v1/index.json').then(r => r.json()).then(d => {
   const fmt = s => s ? s.slice(0,4)+'-'+s.slice(4,6)+'-'+s.slice(6) : '—';
   document.getElementById('sub').textContent =
-    d.board_count + ' 个榜单 · 更新于 ' + d.generated_at + ' · 数据源：百度 App 短剧榜单';
+    '3 个榜单 · 每榜 100 条（漫剧 50 + AI剧 50）· 更新于 ' + d.generated_at;
   document.getElementById('grid').innerHTML = d.boards.map(b => `
     <div class="card">
-      <span class="tag${b.type === 'AI剧' ? ' ai' : ''}">${b.type}</span>
-      <h2>${b.rank_name}</h2>
+      <span class="tag">${b.board}</span>
+      <h2>${b.board}　<code>${b.json}</code></h2>
       <div class="row"><span>最新日期</span><b>${fmt(b.latest_date)}</b></div>
-      <div class="row"><span>条数</span><b>${b.latest_rows ?? '—'}</b></div>
+      <div class="row"><span>条数</span><b>${b.count}（漫剧 50 + AI剧 50）</b></div>
       <div class="row"><span>历史期数</span><b>${b.history_dates.length}</b></div>
       <div class="row"><span>首期</span><b>${fmt(b.history_dates[0])}</b></div>
-      <div class="row"><span>接口</span><a href="${b.json_path.replace(/^\//,'')}">${b.json_path}</a></div>
+      <div class="row"><span>接口</span><a href="${b.json}">打开</a></div>
     </div>`).join('');
 }).catch(e => {
   document.getElementById('sub').textContent = '索引加载失败：' + e.message;

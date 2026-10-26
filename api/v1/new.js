@@ -9,7 +9,7 @@ window.BAIDU_RANK_NEW = {
  "prev_date": "20261025",
  "count": 100,
  "total_rows": 100,
- "updated_at": "2026-10-26 20:21",
+ "updated_at": "2026-10-26 20:22",
  "platform": "百度",
  "heat_label": "热度(万)",
  "data_source": "百度 App 短剧榜单",
