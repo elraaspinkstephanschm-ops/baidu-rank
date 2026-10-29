@@ -32,6 +32,8 @@
     "20261029"
    ],
    "history_count": 9,
+   "genre_coverage": "28/50（回填 28）",
+   "dedup": [],
    "json": "api/rank/hot.json",
    "js": "api/rank/hot.js",
    "history_pattern": "api/history/hot/{YYYYMMDD}.json"
@@ -61,6 +63,16 @@
     "20261029"
    ],
    "history_count": 9,
+   "genre_coverage": "17/49（回填 17）",
+   "dedup": [
+    {
+     "board": "新剧榜",
+     "title": "三千重甲在手，扶大明之将倾",
+     "rank": 27,
+     "kept_title": "三千重甲在手，扶大明之将倾",
+     "kept_rank": 20
+    }
+   ],
    "json": "api/rank/new.json",
    "js": "api/rank/new.js",
    "history_pattern": "api/history/new/{YYYYMMDD}.json"
@@ -82,6 +94,8 @@
     "20261029"
    ],
    "history_count": 1,
+   "genre_coverage": "0/50（回填 0）",
+   "dedup": [],
    "json": "api/rank/jingpin.json",
    "js": "api/rank/jingpin.js",
    "history_pattern": "api/history/jingpin/{YYYYMMDD}.json"
@@ -106,6 +120,8 @@
     "20261026"
    ],
    "history_count": 2,
+   "genre_coverage": "94/100（回填 0）",
+   "dedup": [],
    "json": "api/rank/classic.json",
    "js": "api/rank/classic.js",
    "history_pattern": "api/history/classic/{YYYYMMDD}.json"
