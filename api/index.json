@@ -5,7 +5,7 @@
  "platform": "百度",
  "channel": "短剧",
  "board_count": 3,
- "note": "3 个榜单，每榜 = 漫剧 + AI剧 合并，名次各自独立（各 1..N，不顺延）",
+ "note": "3 个榜单：热播榜 / 新剧榜 / 精品榜（均为漫剧）。上游 20261029 起取消 AI剧 四个榜；20261029 之前的期数仍含 AI剧，历史原样保留。名次各自独立（各 1..N，不顺延）。数值口径 20261028 及之前为「热度」，20261029 起为「播放」，见各期 heat_metric。",
  "boards": [
   {
    "board": "热播榜",
@@ -17,6 +17,9 @@
     "漫剧": 50,
     "AI剧": 0
    },
+   "heat_metric": "播放",
+   "active": true,
+   "retired_note": null,
    "history_dates": [
     "20261021",
     "20261022",
@@ -43,6 +46,9 @@
     "漫剧": 49,
     "AI剧": 0
    },
+   "heat_metric": "播放",
+   "active": true,
+   "retired_note": null,
    "history_dates": [
     "20261021",
     "20261022",
@@ -60,6 +66,29 @@
    "history_pattern": "api/history/new/{YYYYMMDD}.json"
   },
   {
+   "board": "精品榜",
+   "board_code": "jingpin",
+   "update_freq": "weekly",
+   "latest_date": "20261029",
+   "count": 50,
+   "breakdown": {
+    "漫剧": 50,
+    "AI剧": 0
+   },
+   "heat_metric": "播放",
+   "active": true,
+   "retired_note": null,
+   "history_dates": [
+    "20261029"
+   ],
+   "history_count": 1,
+   "json": "api/rank/jingpin.json",
+   "js": "api/rank/jingpin.js",
+   "history_pattern": "api/history/jingpin/{YYYYMMDD}.json"
+  }
+ ],
+ "retired_boards": [
+  {
    "board": "经典榜",
    "board_code": "classic",
    "update_freq": "weekly",
@@ -69,6 +98,9 @@
     "漫剧": 50,
     "AI剧": 50
    },
+   "heat_metric": "热度",
+   "active": false,
+   "retired_note": "上游自 20261029 起取消 经典榜（改为 精品榜），本接口冻结在最后一期，保留可访问但不再更新；新数据请看 jingpin.json",
    "history_dates": [
     "20261021",
     "20261026"

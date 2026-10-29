@@ -41,15 +41,17 @@
   <div class="grid" id="grid"></div>
   <div class="foot">
     <b>三个榜单，三个链接</b><br>
-    <code>api/rank/hot.json</code> 热播榜　·　<code>api/rank/new.json</code> 新剧榜　·　<code>api/rank/classic.json</code> 经典榜<br>
+    <code>api/rank/hot.json</code> 热播榜　·　<code>api/rank/new.json</code> 新剧榜　·　<code>api/rank/jingpin.json</code> 精品榜<br>
     历史快照：<code>api/history/{榜}/{YYYYMMDD}.json</code>　·　总索引：<code>api/index.json</code>　·　跨域用同名 <code>.js</code> 版本<br>
-    <b>合并规则</b>：每榜 = 漫剧 + AI剧 合并，共 100 条左右；<b>名次不顺延</b>——
-    漫剧与 AI剧各自保留自己的 1..N，所以第 1 名会出现两次。排列顺序为漫剧在前、AI剧在后；
-    要做全局名次请按 <code>hot_num</code> 重排。<br>
+    <b>口径变更（20261029）</b>：上游取消 AI剧 四个榜，现只更 热播 / 新剧 / 精品 三榜，每榜 50 条左右；
+    20261029 之前的期数仍含 AI剧（每榜约 100 条），历史原样保留不改写。<b>名次不顺延</b>，
+    各分类保留自己的 1..N，所以第 1 名可能出现两次；要做全局名次请按 <code>hot_num</code> 重排。<br>
     <b>字段</b>：rank 名次 · title 剧名 · cat 分类 · type 分类·题材 · genre 题材 · eps 集数 ·
-    hot 热度（万）· hot_num 热度整数 · desc 简介 · board 榜单 · date 日期，
+    hot 热度/播放（万）· heat_metric 口径（热度 / 播放）· hot_num 数值整数 · desc 简介 · board 榜单 · date 日期，
     同时提供 剧名/分类/题材/集数/热度/简介 等中文字段名。<br>
-    <b>更新频率</b>：热播榜、新剧榜日更；<b>经典榜周更</b>（没有新一期时沿用上一期）。
+    <b>数值口径</b>：20261028 及之前为「热度(万)」，20261029 起百度页面改为「播放(万)」，两者不可直接跨期比较。<br>
+    <b>更新频率</b>：热播榜、新剧榜日更；<b>精品榜周更</b>（没有新一期时沿用上一期）。
+    <b>经典榜已停更</b>，<code>api/rank/classic.json</code> 冻结保留可访问。
   </div>
 </div>
 <script>
@@ -57,20 +59,31 @@ fetch('api/index.json').then(r => r.json()).then(d => {
   const fmt = s => s ? s.slice(0,4)+'-'+s.slice(4,6)+'-'+s.slice(6) : '—';
   const freq = f => f === 'weekly' ? '周更' : '日更';
   document.getElementById('sub').textContent =
-    `${d.board_count} 个榜单 · 漫剧 + AI剧 合并 · 名次不顺延 · 更新于 ${d.generated_at}`;
-  document.getElementById('grid').innerHTML = d.boards.map(b => {
+    `${d.board_count} 个榜单 · 名次不顺延 · 数值口径 ${d.boards[0] && d.boards[0].heat_metric || ''}(万) · 更新于 ${d.generated_at}`;
+  const cards = d.boards.map(b => {
     const bd = b.breakdown || {};
+    const mix = Object.keys(bd).filter(k => bd[k]).map(k => `${k} ${bd[k]}`).join(' + ');
     return `
     <div class="card">
       <span class="tag ${b.update_freq === 'weekly' ? 'weekly' : ''}">${freq(b.update_freq)}</span>
       <h2>${b.board}　<code>${b.json}</code></h2>
       <div class="row"><span>最新日期</span><b>${fmt(b.latest_date)}</b></div>
-      <div class="row"><span>条数</span><b>${b.count}（漫剧 ${bd['漫剧']||0} + AI剧 ${bd['AI剧']||0}）</b></div>
+      <div class="row"><span>条数</span><b>${b.count}（${mix}）</b></div>
+      <div class="row"><span>数值口径</span><b>${b.heat_metric || '—'}(万)</b></div>
       <div class="row"><span>历史期数</span><b>${b.history_dates.length}</b></div>
       <div class="row"><span>首期</span><b>${fmt(b.history_dates[0])}</b></div>
       <div class="row"><span>接口</span><a href="${b.json}">打开</a></div>
     </div>`;
   }).join('');
+  const retired = (d.retired_boards || []).map(b =>
+    `<div class="card" style="opacity:.6">
+      <span class="tag">已停更</span>
+      <h2>${b.board}　<code>${b.json}</code></h2>
+      <div class="row"><span>冻结于</span><b>${fmt(b.latest_date)}</b></div>
+      <div class="row"><span>条数</span><b>${b.count}</b></div>
+      <div class="row"><span>接口</span><a href="${b.json}">打开</a></div>
+    </div>`).join('');
+  document.getElementById('grid').innerHTML = cards + retired;
 }).catch(e => {
   document.getElementById('sub').textContent = '索引加载失败：' + e.message;
 });
