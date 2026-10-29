@@ -1,7 +1,7 @@
 {
  "ok": true,
  "code": 0,
- "generated_at": "2026-10-28",
+ "generated_at": "2026-10-29",
  "platform": "百度",
  "channel": "短剧",
  "board_count": 3,
@@ -11,11 +11,11 @@
    "board": "热播榜",
    "board_code": "hot",
    "update_freq": "daily",
-   "latest_date": "20261028",
-   "count": 100,
+   "latest_date": "20261029",
+   "count": 50,
    "breakdown": {
     "漫剧": 50,
-    "AI剧": 50
+    "AI剧": 0
    },
    "history_dates": [
     "20261021",
@@ -25,9 +25,10 @@
     "20261025",
     "20261026",
     "20261027",
-    "20261028"
+    "20261028",
+    "20261029"
    ],
-   "history_count": 8,
+   "history_count": 9,
    "json": "api/rank/hot.json",
    "js": "api/rank/hot.js",
    "history_pattern": "api/history/hot/{YYYYMMDD}.json"
@@ -36,11 +37,11 @@
    "board": "新剧榜",
    "board_code": "new",
    "update_freq": "daily",
-   "latest_date": "20261028",
-   "count": 100,
+   "latest_date": "20261029",
+   "count": 49,
    "breakdown": {
-    "漫剧": 50,
-    "AI剧": 50
+    "漫剧": 49,
+    "AI剧": 0
    },
    "history_dates": [
     "20261021",
@@ -50,9 +51,10 @@
     "20261025",
     "20261026",
     "20261027",
-    "20261028"
+    "20261028",
+    "20261029"
    ],
-   "history_count": 8,
+   "history_count": 9,
    "json": "api/rank/new.json",
    "js": "api/rank/new.js",
    "history_pattern": "api/history/new/{YYYYMMDD}.json"
