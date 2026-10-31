@@ -1,7 +1,7 @@
 {
  "ok": true,
  "code": 0,
- "generated_at": "2026-10-29",
+ "generated_at": "2026-10-31",
  "platform": "百度",
  "channel": "短剧",
  "board_count": 3,
@@ -11,7 +11,7 @@
    "board": "热播榜",
    "board_code": "hot",
    "update_freq": "daily",
-   "latest_date": "20261029",
+   "latest_date": "20261031",
    "count": 50,
    "breakdown": {
     "漫剧": 50,
@@ -29,10 +29,12 @@
     "20261026",
     "20261027",
     "20261028",
-    "20261029"
+    "20261029",
+    "20261030",
+    "20261031"
    ],
-   "history_count": 9,
-   "genre_coverage": "28/50（回填 28）",
+   "history_count": 11,
+   "genre_coverage": "26/50（回填 26）",
    "dedup": [],
    "json": "api/rank/hot.json",
    "js": "api/rank/hot.js",
@@ -42,7 +44,7 @@
    "board": "新剧榜",
    "board_code": "new",
    "update_freq": "daily",
-   "latest_date": "20261029",
+   "latest_date": "20261031",
    "count": 49,
    "breakdown": {
     "漫剧": 49,
@@ -60,10 +62,12 @@
     "20261026",
     "20261027",
     "20261028",
-    "20261029"
+    "20261029",
+    "20261030",
+    "20261031"
    ],
-   "history_count": 9,
-   "genre_coverage": "17/49（回填 17）",
+   "history_count": 11,
+   "genre_coverage": "16/49（回填 16）",
    "dedup": [
     {
      "board": "新剧榜",
@@ -71,6 +75,20 @@
      "rank": 27,
      "kept_title": "三千重甲在手，扶大明之将倾",
      "kept_rank": 20
+    },
+    {
+     "board": "新剧榜",
+     "title": "三千重甲在手，扶大明之将倾",
+     "rank": 17,
+     "kept_title": "三千重甲在手，扶大明之将倾",
+     "kept_rank": 25
+    },
+    {
+     "board": "新剧榜",
+     "title": "三千重甲在手，扶大明之将倾",
+     "rank": 26,
+     "kept_title": "三千重甲在手，扶大明之将倾",
+     "kept_rank": 17
     }
    ],
    "json": "api/rank/new.json",
@@ -81,7 +99,7 @@
    "board": "精品榜",
    "board_code": "jingpin",
    "update_freq": "weekly",
-   "latest_date": "20261029",
+   "latest_date": "20261031",
    "count": 50,
    "breakdown": {
     "漫剧": 50,
@@ -91,9 +109,11 @@
    "active": true,
    "retired_note": null,
    "history_dates": [
-    "20261029"
+    "20261029",
+    "20261030",
+    "20261031"
    ],
-   "history_count": 1,
+   "history_count": 3,
    "genre_coverage": "0/50（回填 0）",
    "dedup": [],
    "json": "api/rank/jingpin.json",
