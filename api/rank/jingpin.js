@@ -5,8 +5,8 @@ window.BAIDU_RANK_JINGPIN = {
  "board_code": "jingpin",
  "rank_name": "精品榜（漫剧）",
  "update_freq": "weekly",
- "date": "20261106",
- "date_fmt": "2026-11-06",
+ "date": "20261107",
+ "date_fmt": "2026-11-07",
  "count": 50,
  "total_rows": 50,
  "breakdown": {
@@ -85,14 +85,14 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "大夏连年天灾，国师断言紫微星",
    "summary": "大夏连年天灾，国师断言紫微星",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 2,
    "rank_no": 2,
-   "title": "三个儿子无人养老，重生家产全给女儿",
-   "name": "三个儿子无人养老，重生家产全给女儿",
-   "剧名": "三个儿子无人养老，重生家产全给女儿",
+   "title": "三个儿子无人养老，重生家产全.",
+   "name": "三个儿子无人养老，重生家产全.",
+   "剧名": "三个儿子无人养老，重生家产全.",
    "cat": "漫剧",
    "分类": "漫剧",
    "series_type": "漫剧",
@@ -103,22 +103,22 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "59",
    "集数": "59",
    "episodes": 59,
-   "hot": "127万",
-   "热度": "127万",
-   "heat": 127.0,
-   "heat_value": 127.0,
-   "hot_num": 1270000,
+   "hot": "128万",
+   "热度": "128万",
+   "heat": 128.0,
+   "heat_value": 128.0,
+   "hot_num": 1280000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
-   "rank_prev": 2,
-   "trend": "flat",
-   "trend_text": "—",
+   "rank_prev": null,
+   "trend": "new",
+   "trend_text": "新",
    "desc": "1983 年果断分家掌家。她疼··",
    "简介": "1983 年果断分家掌家。她疼··",
    "description": "1983 年果断分家掌家。她疼··",
    "summary": "1983 年果断分家掌家。她疼··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 3,
@@ -146,12 +146,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 3,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "庭，南下羊城倒卖服装起家，···",
-   "简介": "庭，南下羊城倒卖服装起家，···",
-   "description": "庭，南下羊城倒卖服装起家，···",
-   "summary": "庭，南下羊城倒卖服装起家，···",
+   "desc": "陆阳重生回80年代，摆脱原生家",
+   "简介": "陆阳重生回80年代，摆脱原生家",
+   "description": "陆阳重生回80年代，摆脱原生家",
+   "summary": "陆阳重生回80年代，摆脱原生家",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 4,
@@ -184,7 +184,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "现代古籍修复师沈清辞穿越到古",
    "summary": "现代古籍修复师沈清辞穿越到古",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 5,
@@ -212,12 +212,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 5,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
-   "简介": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
-   "description": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
-   "summary": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
+   "desc": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
+   "简介": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
+   "description": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
+   "summary": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 6,
@@ -245,12 +245,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 6,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
-   "简介": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
-   "description": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
-   "summary": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
+   "desc": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
+   "简介": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
+   "description": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
+   "summary": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 7,
@@ -278,12 +278,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 7,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "演齐天大圣意外开启度化系统··",
-   "简介": "演齐天大圣意外开启度化系统··",
-   "description": "演齐天大圣意外开启度化系统··",
-   "summary": "演齐天大圣意外开启度化系统··",
+   "desc": "城隍庙杂役孙圣饱受欺凌，因扮",
+   "简介": "城隍庙杂役孙圣饱受欺凌，因扮",
+   "description": "城隍庙杂役孙圣饱受欺凌，因扮",
+   "summary": "城隍庙杂役孙圣饱受欺凌，因扮",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 8,
@@ -301,22 +301,22 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "89",
    "集数": "89",
    "episodes": 89,
-   "hot": "45万",
-   "热度": "45万",
-   "heat": 45.0,
-   "heat_value": 45.0,
-   "hot_num": 450000,
+   "hot": "46万",
+   "热度": "46万",
+   "heat": 46.0,
+   "heat_value": 46.0,
+   "hot_num": 460000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 8,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "登上诡异海域的渔船。面对凶···",
-   "简介": "登上诡异海域的渔船。面对凶···",
-   "description": "登上诡异海域的渔船。面对凶···",
-   "summary": "登上诡异海域的渔船。面对凶···",
+   "desc": "登上诡异海域的渔船。面对凶··",
+   "简介": "登上诡异海域的渔船。面对凶··",
+   "description": "登上诡异海域的渔船。面对凶··",
+   "summary": "登上诡异海域的渔船。面对凶··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 9,
@@ -334,11 +334,11 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "65",
    "集数": "65",
    "episodes": 65,
-   "hot": "106万",
-   "热度": "106万",
-   "heat": 106.0,
-   "heat_value": 106.0,
-   "hot_num": 1060000,
+   "hot": "107万",
+   "热度": "107万",
+   "heat": 107.0,
+   "heat_value": 107.0,
+   "hot_num": 1070000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 9,
@@ -349,7 +349,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "死之友讨回公道。乔府暗流涌··",
    "summary": "死之友讨回公道。乔府暗流涌··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 10,
@@ -367,11 +367,11 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "82",
    "集数": "82",
    "episodes": 82,
-   "hot": "285万",
-   "热度": "285万",
-   "heat": 285.0,
-   "heat_value": 285.0,
-   "hot_num": 2850000,
+   "hot": "286万",
+   "热度": "286万",
+   "heat": 286.0,
+   "heat_value": 286.0,
+   "hot_num": 2860000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 10,
@@ -382,7 +382,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "血月高悬，诡异降临。怪物以人",
    "summary": "血月高悬，诡异降临。怪物以人",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 11,
@@ -410,12 +410,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 11,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "校园家长足球赛开启，优胜者可",
-   "简介": "校园家长足球赛开启，优胜者可",
-   "description": "校园家长足球赛开启，优胜者可",
-   "summary": "校园家长足球赛开启，优胜者可",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 12,
@@ -448,7 +448,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "大靖天启年间，孤儿云沧为洗刷",
    "summary": "大靖天启年间，孤儿云沧为洗刷",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 13,
@@ -481,7 +481,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "孙悟空本想在花果山躺平养老，",
    "summary": "孙悟空本想在花果山躺平养老，",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 14,
@@ -514,7 +514,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "并起为背景，现代图书管理员··",
    "summary": "并起为背景，现代图书管理员··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 15,
@@ -547,7 +547,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "意外穿越到画道传承残缺的异世",
    "summary": "意外穿越到画道传承残缺的异世",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 16,
@@ -575,12 +575,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 16,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "大夏开国女将军、地府判官谢惊",
-   "简介": "大夏开国女将军、地府判官谢惊",
-   "description": "大夏开国女将军、地府判官谢惊",
-   "summary": "大夏开国女将军、地府判官谢惊",
+   "desc": "澜，惊见自己第七代嫡孙女谢···",
+   "简介": "澜，惊见自己第七代嫡孙女谢···",
+   "description": "澜，惊见自己第七代嫡孙女谢···",
+   "summary": "澜，惊见自己第七代嫡孙女谢···",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 17,
@@ -613,7 +613,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "程煜在考古现场意外穿越成武道",
    "summary": "程煜在考古现场意外穿越成武道",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 18,
@@ -631,22 +631,22 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "76",
    "集数": "76",
    "episodes": 76,
-   "hot": "1403万",
-   "热度": "1403万",
-   "heat": 1403.0,
-   "heat_value": 1403.0,
-   "hot_num": 14030000,
+   "hot": "1405万",
+   "热度": "1405万",
+   "heat": 1405.0,
+   "heat_value": 1405.0,
+   "hot_num": 14050000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 18,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "八零年代，青山村“杀猪西施",
-   "简介": "八零年代，青山村“杀猪西施",
-   "description": "八零年代，青山村“杀猪西施",
-   "summary": "八零年代，青山村“杀猪西施",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 19,
@@ -679,7 +679,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "入了国安部，却恰逢蓝星诡异··",
    "summary": "入了国安部，却恰逢蓝星诡异··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 20,
@@ -697,11 +697,11 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "63",
    "集数": "63",
    "episodes": 63,
-   "hot": "541万",
-   "热度": "541万",
-   "heat": 541.0,
-   "heat_value": 541.0,
-   "hot_num": 5410000,
+   "hot": "544万",
+   "热度": "544万",
+   "heat": 544.0,
+   "heat_value": 544.0,
+   "hot_num": 5440000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 20,
@@ -712,7 +712,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "蜜林薇薇谋害，重生为一只纯··",
    "summary": "蜜林薇薇谋害，重生为一只纯··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 21,
@@ -745,7 +745,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "赢家弃少赢轩因未觉醒异能，被",
    "summary": "赢家弃少赢轩因未觉醒异能，被",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 22,
@@ -773,12 +773,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 22,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "善良的林素琴倾尽所有帮扶家",
-   "简介": "善良的林素琴倾尽所有帮扶家",
-   "description": "善良的林素琴倾尽所有帮扶家",
-   "summary": "善良的林素琴倾尽所有帮扶家",
+   "desc": "人，却换来冷漠与误解。失望·",
+   "简介": "人，却换来冷漠与误解。失望·",
+   "description": "人，却换来冷漠与误解。失望·",
+   "summary": "人，却换来冷漠与误解。失望·",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 23,
@@ -811,7 +811,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "连续两年错失NCAA决赛绝杀的",
    "summary": "连续两年错失NCAA决赛绝杀的",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 24,
@@ -844,7 +844,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "30世纪初，文明对决开启，华夏",
    "summary": "30世纪初，文明对决开启，华夏",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 25,
@@ -877,7 +877,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "苏”世界，获SSS级死亡回档天",
    "summary": "苏”世界，获SSS级死亡回档天",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 26,
@@ -910,7 +910,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "陈阳穿越到御兽世界，竟成了一",
    "summary": "陈阳穿越到御兽世界，竟成了一",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 27,
@@ -938,12 +938,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 27,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "姐姐的眼泪，父亲的断脉，家族",
-   "简介": "姐姐的眼泪，父亲的断脉，家族",
-   "description": "姐姐的眼泪，父亲的断脉，家族",
-   "summary": "姐姐的眼泪，父亲的断脉，家族",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 28,
@@ -971,12 +971,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 28,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "",
-   "简介": "",
-   "description": "",
-   "summary": "",
+   "desc": "外卖员夏然遭女友兄弟背叛，意",
+   "简介": "外卖员夏然遭女友兄弟背叛，意",
+   "description": "外卖员夏然遭女友兄弟背叛，意",
+   "summary": "外卖员夏然遭女友兄弟背叛，意",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 29,
@@ -1009,7 +1009,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "含恨而终的瞬间穿越附体。面··",
    "summary": "含恨而终的瞬间穿越附体。面··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 30,
@@ -1042,7 +1042,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "在叶思媚五岁那年，算命先生说",
    "summary": "在叶思媚五岁那年，算命先生说",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 31,
@@ -1075,7 +1075,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "青云剑宗圣女沈寂月浴血奋战却",
    "summary": "青云剑宗圣女沈寂月浴血奋战却",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 32,
@@ -1108,7 +1108,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "1978年，沿海渔村孤儿陈江河在",
    "summary": "1978年，沿海渔村孤儿陈江河在",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 33,
@@ -1141,7 +1141,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "男主林业穿越到一个纹身世界，",
    "summary": "男主林业穿越到一个纹身世界，",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 34,
@@ -1169,12 +1169,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 34,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "在80年代变革的浪潮中，背负着",
-   "简介": "在80年代变革的浪潮中，背负着",
-   "description": "在80年代变革的浪潮中，背负着",
-   "summary": "在80年代变革的浪潮中，背负着",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 35,
@@ -1207,7 +1207,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "激活复仇系统，开局获得无限··",
    "summary": "激活复仇系统，开局获得无限··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 36,
@@ -1232,15 +1232,15 @@ window.BAIDU_RANK_JINGPIN = {
    "hot_num": 510000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
-   "rank_prev": null,
-   "trend": "new",
-   "trend_text": "新",
-   "desc": "统”穿越回90年代雪鹿村，在···",
-   "简介": "统”穿越回90年代雪鹿村，在···",
-   "description": "统”穿越回90年代雪鹿村，在···",
-   "summary": "统”穿越回90年代雪鹿村，在···",
+   "rank_prev": 36,
+   "trend": "flat",
+   "trend_text": "—",
+   "desc": "统”穿越回90年代雪鹿村，在·",
+   "简介": "统”穿越回90年代雪鹿村，在·",
+   "description": "统”穿越回90年代雪鹿村，在·",
+   "summary": "统”穿越回90年代雪鹿村，在·",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 37,
@@ -1268,12 +1268,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 37,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "",
-   "简介": "",
-   "description": "",
-   "summary": "",
+   "desc": "妻万倍返还系统，先娶百朝国···",
+   "简介": "妻万倍返还系统，先娶百朝国···",
+   "description": "妻万倍返还系统，先娶百朝国···",
+   "summary": "妻万倍返还系统，先娶百朝国···",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 38,
@@ -1306,7 +1306,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "被退婚、被家族抛弃的双F级··",
    "summary": "被退婚、被家族抛弃的双F级··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 39,
@@ -1334,12 +1334,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 39,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "国运求生游戏降临，气温骤降至",
-   "简介": "国运求生游戏降临，气温骤降至",
-   "description": "国运求生游戏降临，气温骤降至",
-   "summary": "国运求生游戏降临，气温骤降至",
+   "desc": "绝对零度，选手死亡所属国家··",
+   "简介": "绝对零度，选手死亡所属国家··",
+   "description": "绝对零度，选手死亡所属国家··",
+   "summary": "绝对零度，选手死亡所属国家··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 40,
@@ -1372,7 +1372,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "穿越者秦浩天生遭天道诅咒、实",
    "summary": "穿越者秦浩天生遭天道诅咒、实",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 41,
@@ -1400,12 +1400,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 41,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "山村，却发现整个村庄五年前··",
-   "简介": "山村，却发现整个村庄五年前··",
-   "description": "山村，却发现整个村庄五年前··",
-   "summary": "山村，却发现整个村庄五年前··",
+   "desc": "快递员张不二接到爷爷电话回到",
+   "简介": "快递员张不二接到爷爷电话回到",
+   "description": "快递员张不二接到爷爷电话回到",
+   "summary": "快递员张不二接到爷爷电话回到",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 42,
@@ -1433,12 +1433,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 42,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "百岁罗寿宴之日，秦长生满心期待",
-   "简介": "百岁罗寿宴之日，秦长生满心期待",
-   "description": "百岁罗寿宴之日，秦长生满心期待",
-   "summary": "百岁罗寿宴之日，秦长生满心期待",
+   "desc": "百岁寿宴之日，秦长生满心期待",
+   "简介": "百岁寿宴之日，秦长生满心期待",
+   "description": "百岁寿宴之日，秦长生满心期待",
+   "summary": "百岁寿宴之日，秦长生满心期待",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 43,
@@ -1471,7 +1471,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "罗柏是一位“全职业满级”的游戏",
    "summary": "罗柏是一位“全职业满级”的游戏",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 44,
@@ -1499,12 +1499,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 44,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "异次元融合世界，凶兽入侵，御",
-   "简介": "异次元融合世界，凶兽入侵，御",
-   "description": "异次元融合世界，凶兽入侵，御",
-   "summary": "异次元融合世界，凶兽入侵，御",
+   "desc": "兽师为保卫家园拼死而战，但··",
+   "简介": "兽师为保卫家园拼死而战，但··",
+   "description": "兽师为保卫家园拼死而战，但··",
+   "summary": "兽师为保卫家园拼死而战，但··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 45,
@@ -1532,12 +1532,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 45,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "凶兽入侵，人类觉醒各类职业·",
-   "简介": "凶兽入侵，人类觉醒各类职业·",
-   "description": "凶兽入侵，人类觉醒各类职业·",
-   "summary": "凶兽入侵，人类觉醒各类职业·",
+   "desc": "在一个游戏与现实交融的世界,",
+   "简介": "在一个游戏与现实交融的世界,",
+   "description": "在一个游戏与现实交融的世界,",
+   "summary": "在一个游戏与现实交融的世界,",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 46,
@@ -1570,7 +1570,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "少年陈凡觉醒“阿姨寻宝系统”",
    "summary": "少年陈凡觉醒“阿姨寻宝系统”",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 47,
@@ -1603,7 +1603,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "江辰一眼回到80年代东北农",
    "summary": "江辰一眼回到80年代东北农",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 48,
@@ -1631,12 +1631,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 48,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "穿越成将门之后，正好赶上皇上",
-   "简介": "穿越成将门之后，正好赶上皇上",
-   "description": "穿越成将门之后，正好赶上皇上",
-   "summary": "穿越成将门之后，正好赶上皇上",
+   "desc": "收回兵权？还被退婚了？吹牛··",
+   "简介": "收回兵权？还被退婚了？吹牛··",
+   "description": "收回兵权？还被退婚了？吹牛··",
+   "summary": "收回兵权？还被退婚了？吹牛··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 49,
@@ -1664,12 +1664,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 49,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "穿越就遇到饥荒年，苏晓彤还来",
-   "简介": "穿越就遇到饥荒年，苏晓彤还来",
-   "description": "穿越就遇到饥荒年，苏晓彤还来",
-   "summary": "穿越就遇到饥荒年，苏晓彤还来",
+   "desc": "不及喘一口气，便带着柔弱的··",
+   "简介": "不及喘一口气，便带着柔弱的··",
+   "description": "不及喘一口气，便带着柔弱的··",
+   "summary": "不及喘一口气，便带着柔弱的··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 50,
@@ -1697,17 +1697,17 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 50,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "王明被前女友分手后，醉酒误入",
-   "简介": "王明被前女友分手后，醉酒误入",
-   "description": "王明被前女友分手后，醉酒误入",
-   "summary": "王明被前女友分手后，醉酒误入",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   }
  ],
  "dedup": [],
- "prev_date": "20261105",
- "updated_at": "2026-11-06",
+ "prev_date": "20261106",
+ "updated_at": "2026-11-07",
  "history_dates": [
   "20261029",
   "20261030",
@@ -1717,7 +1717,8 @@ window.BAIDU_RANK_JINGPIN = {
   "20261103",
   "20261104",
   "20261105",
-  "20261106"
+  "20261106",
+  "20261107"
  ],
  "data": [
   {
@@ -1751,14 +1752,14 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "大夏连年天灾，国师断言紫微星",
    "summary": "大夏连年天灾，国师断言紫微星",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 2,
    "rank_no": 2,
-   "title": "三个儿子无人养老，重生家产全给女儿",
-   "name": "三个儿子无人养老，重生家产全给女儿",
-   "剧名": "三个儿子无人养老，重生家产全给女儿",
+   "title": "三个儿子无人养老，重生家产全.",
+   "name": "三个儿子无人养老，重生家产全.",
+   "剧名": "三个儿子无人养老，重生家产全.",
    "cat": "漫剧",
    "分类": "漫剧",
    "series_type": "漫剧",
@@ -1769,22 +1770,22 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "59",
    "集数": "59",
    "episodes": 59,
-   "hot": "127万",
-   "热度": "127万",
-   "heat": 127.0,
-   "heat_value": 127.0,
-   "hot_num": 1270000,
+   "hot": "128万",
+   "热度": "128万",
+   "heat": 128.0,
+   "heat_value": 128.0,
+   "hot_num": 1280000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
-   "rank_prev": 2,
-   "trend": "flat",
-   "trend_text": "—",
+   "rank_prev": null,
+   "trend": "new",
+   "trend_text": "新",
    "desc": "1983 年果断分家掌家。她疼··",
    "简介": "1983 年果断分家掌家。她疼··",
    "description": "1983 年果断分家掌家。她疼··",
    "summary": "1983 年果断分家掌家。她疼··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 3,
@@ -1812,12 +1813,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 3,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "庭，南下羊城倒卖服装起家，···",
-   "简介": "庭，南下羊城倒卖服装起家，···",
-   "description": "庭，南下羊城倒卖服装起家，···",
-   "summary": "庭，南下羊城倒卖服装起家，···",
+   "desc": "陆阳重生回80年代，摆脱原生家",
+   "简介": "陆阳重生回80年代，摆脱原生家",
+   "description": "陆阳重生回80年代，摆脱原生家",
+   "summary": "陆阳重生回80年代，摆脱原生家",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 4,
@@ -1850,7 +1851,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "现代古籍修复师沈清辞穿越到古",
    "summary": "现代古籍修复师沈清辞穿越到古",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 5,
@@ -1878,12 +1879,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 5,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
-   "简介": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
-   "description": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
-   "summary": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然…",
+   "desc": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
+   "简介": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
+   "description": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
+   "summary": "江玄爷爷病重，为救回爷爷，孤身前往与世隔绝的青山镇。然",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 6,
@@ -1911,12 +1912,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 6,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
-   "简介": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
-   "description": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
-   "summary": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以…",
+   "desc": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
+   "简介": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
+   "description": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
+   "summary": "《穿越时空的清风》是国内首部海事廉洁AI微短剧，共6集，以",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 7,
@@ -1944,12 +1945,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 7,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "演齐天大圣意外开启度化系统··",
-   "简介": "演齐天大圣意外开启度化系统··",
-   "description": "演齐天大圣意外开启度化系统··",
-   "summary": "演齐天大圣意外开启度化系统··",
+   "desc": "城隍庙杂役孙圣饱受欺凌，因扮",
+   "简介": "城隍庙杂役孙圣饱受欺凌，因扮",
+   "description": "城隍庙杂役孙圣饱受欺凌，因扮",
+   "summary": "城隍庙杂役孙圣饱受欺凌，因扮",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 8,
@@ -1967,22 +1968,22 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "89",
    "集数": "89",
    "episodes": 89,
-   "hot": "45万",
-   "热度": "45万",
-   "heat": 45.0,
-   "heat_value": 45.0,
-   "hot_num": 450000,
+   "hot": "46万",
+   "热度": "46万",
+   "heat": 46.0,
+   "heat_value": 46.0,
+   "hot_num": 460000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 8,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "登上诡异海域的渔船。面对凶···",
-   "简介": "登上诡异海域的渔船。面对凶···",
-   "description": "登上诡异海域的渔船。面对凶···",
-   "summary": "登上诡异海域的渔船。面对凶···",
+   "desc": "登上诡异海域的渔船。面对凶··",
+   "简介": "登上诡异海域的渔船。面对凶··",
+   "description": "登上诡异海域的渔船。面对凶··",
+   "summary": "登上诡异海域的渔船。面对凶··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 9,
@@ -2000,11 +2001,11 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "65",
    "集数": "65",
    "episodes": 65,
-   "hot": "106万",
-   "热度": "106万",
-   "heat": 106.0,
-   "heat_value": 106.0,
-   "hot_num": 1060000,
+   "hot": "107万",
+   "热度": "107万",
+   "heat": 107.0,
+   "heat_value": 107.0,
+   "hot_num": 1070000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 9,
@@ -2015,7 +2016,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "死之友讨回公道。乔府暗流涌··",
    "summary": "死之友讨回公道。乔府暗流涌··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 10,
@@ -2033,11 +2034,11 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "82",
    "集数": "82",
    "episodes": 82,
-   "hot": "285万",
-   "热度": "285万",
-   "heat": 285.0,
-   "heat_value": 285.0,
-   "hot_num": 2850000,
+   "hot": "286万",
+   "热度": "286万",
+   "heat": 286.0,
+   "heat_value": 286.0,
+   "hot_num": 2860000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 10,
@@ -2048,7 +2049,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "血月高悬，诡异降临。怪物以人",
    "summary": "血月高悬，诡异降临。怪物以人",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 11,
@@ -2076,12 +2077,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 11,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "校园家长足球赛开启，优胜者可",
-   "简介": "校园家长足球赛开启，优胜者可",
-   "description": "校园家长足球赛开启，优胜者可",
-   "summary": "校园家长足球赛开启，优胜者可",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 12,
@@ -2114,7 +2115,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "大靖天启年间，孤儿云沧为洗刷",
    "summary": "大靖天启年间，孤儿云沧为洗刷",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 13,
@@ -2147,7 +2148,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "孙悟空本想在花果山躺平养老，",
    "summary": "孙悟空本想在花果山躺平养老，",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 14,
@@ -2180,7 +2181,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "并起为背景，现代图书管理员··",
    "summary": "并起为背景，现代图书管理员··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 15,
@@ -2213,7 +2214,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "意外穿越到画道传承残缺的异世",
    "summary": "意外穿越到画道传承残缺的异世",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 16,
@@ -2241,12 +2242,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 16,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "大夏开国女将军、地府判官谢惊",
-   "简介": "大夏开国女将军、地府判官谢惊",
-   "description": "大夏开国女将军、地府判官谢惊",
-   "summary": "大夏开国女将军、地府判官谢惊",
+   "desc": "澜，惊见自己第七代嫡孙女谢···",
+   "简介": "澜，惊见自己第七代嫡孙女谢···",
+   "description": "澜，惊见自己第七代嫡孙女谢···",
+   "summary": "澜，惊见自己第七代嫡孙女谢···",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 17,
@@ -2279,7 +2280,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "程煜在考古现场意外穿越成武道",
    "summary": "程煜在考古现场意外穿越成武道",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 18,
@@ -2297,22 +2298,22 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "76",
    "集数": "76",
    "episodes": 76,
-   "hot": "1403万",
-   "热度": "1403万",
-   "heat": 1403.0,
-   "heat_value": 1403.0,
-   "hot_num": 14030000,
+   "hot": "1405万",
+   "热度": "1405万",
+   "heat": 1405.0,
+   "heat_value": 1405.0,
+   "hot_num": 14050000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 18,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "八零年代，青山村“杀猪西施",
-   "简介": "八零年代，青山村“杀猪西施",
-   "description": "八零年代，青山村“杀猪西施",
-   "summary": "八零年代，青山村“杀猪西施",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 19,
@@ -2345,7 +2346,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "入了国安部，却恰逢蓝星诡异··",
    "summary": "入了国安部，却恰逢蓝星诡异··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 20,
@@ -2363,11 +2364,11 @@ window.BAIDU_RANK_JINGPIN = {
    "eps": "63",
    "集数": "63",
    "episodes": 63,
-   "hot": "541万",
-   "热度": "541万",
-   "heat": 541.0,
-   "heat_value": 541.0,
-   "hot_num": 5410000,
+   "hot": "544万",
+   "热度": "544万",
+   "heat": 544.0,
+   "heat_value": 544.0,
+   "hot_num": 5440000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
    "rank_prev": 20,
@@ -2378,7 +2379,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "蜜林薇薇谋害，重生为一只纯··",
    "summary": "蜜林薇薇谋害，重生为一只纯··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 21,
@@ -2411,7 +2412,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "赢家弃少赢轩因未觉醒异能，被",
    "summary": "赢家弃少赢轩因未觉醒异能，被",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 22,
@@ -2439,12 +2440,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 22,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "善良的林素琴倾尽所有帮扶家",
-   "简介": "善良的林素琴倾尽所有帮扶家",
-   "description": "善良的林素琴倾尽所有帮扶家",
-   "summary": "善良的林素琴倾尽所有帮扶家",
+   "desc": "人，却换来冷漠与误解。失望·",
+   "简介": "人，却换来冷漠与误解。失望·",
+   "description": "人，却换来冷漠与误解。失望·",
+   "summary": "人，却换来冷漠与误解。失望·",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 23,
@@ -2477,7 +2478,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "连续两年错失NCAA决赛绝杀的",
    "summary": "连续两年错失NCAA决赛绝杀的",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 24,
@@ -2510,7 +2511,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "30世纪初，文明对决开启，华夏",
    "summary": "30世纪初，文明对决开启，华夏",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 25,
@@ -2543,7 +2544,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "苏”世界，获SSS级死亡回档天",
    "summary": "苏”世界，获SSS级死亡回档天",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 26,
@@ -2576,7 +2577,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "陈阳穿越到御兽世界，竟成了一",
    "summary": "陈阳穿越到御兽世界，竟成了一",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 27,
@@ -2604,12 +2605,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 27,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "姐姐的眼泪，父亲的断脉，家族",
-   "简介": "姐姐的眼泪，父亲的断脉，家族",
-   "description": "姐姐的眼泪，父亲的断脉，家族",
-   "summary": "姐姐的眼泪，父亲的断脉，家族",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 28,
@@ -2637,12 +2638,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 28,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "",
-   "简介": "",
-   "description": "",
-   "summary": "",
+   "desc": "外卖员夏然遭女友兄弟背叛，意",
+   "简介": "外卖员夏然遭女友兄弟背叛，意",
+   "description": "外卖员夏然遭女友兄弟背叛，意",
+   "summary": "外卖员夏然遭女友兄弟背叛，意",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 29,
@@ -2675,7 +2676,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "含恨而终的瞬间穿越附体。面··",
    "summary": "含恨而终的瞬间穿越附体。面··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 30,
@@ -2708,7 +2709,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "在叶思媚五岁那年，算命先生说",
    "summary": "在叶思媚五岁那年，算命先生说",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 31,
@@ -2741,7 +2742,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "青云剑宗圣女沈寂月浴血奋战却",
    "summary": "青云剑宗圣女沈寂月浴血奋战却",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 32,
@@ -2774,7 +2775,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "1978年，沿海渔村孤儿陈江河在",
    "summary": "1978年，沿海渔村孤儿陈江河在",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 33,
@@ -2807,7 +2808,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "男主林业穿越到一个纹身世界，",
    "summary": "男主林业穿越到一个纹身世界，",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 34,
@@ -2835,12 +2836,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 34,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "在80年代变革的浪潮中，背负着",
-   "简介": "在80年代变革的浪潮中，背负着",
-   "description": "在80年代变革的浪潮中，背负着",
-   "summary": "在80年代变革的浪潮中，背负着",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 35,
@@ -2873,7 +2874,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "激活复仇系统，开局获得无限··",
    "summary": "激活复仇系统，开局获得无限··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 36,
@@ -2898,15 +2899,15 @@ window.BAIDU_RANK_JINGPIN = {
    "hot_num": 510000,
    "heat_metric": "播放",
    "heat_label": "播放(万)",
-   "rank_prev": null,
-   "trend": "new",
-   "trend_text": "新",
-   "desc": "统”穿越回90年代雪鹿村，在···",
-   "简介": "统”穿越回90年代雪鹿村，在···",
-   "description": "统”穿越回90年代雪鹿村，在···",
-   "summary": "统”穿越回90年代雪鹿村，在···",
+   "rank_prev": 36,
+   "trend": "flat",
+   "trend_text": "—",
+   "desc": "统”穿越回90年代雪鹿村，在·",
+   "简介": "统”穿越回90年代雪鹿村，在·",
+   "description": "统”穿越回90年代雪鹿村，在·",
+   "summary": "统”穿越回90年代雪鹿村，在·",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 37,
@@ -2934,12 +2935,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 37,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "",
-   "简介": "",
-   "description": "",
-   "summary": "",
+   "desc": "妻万倍返还系统，先娶百朝国···",
+   "简介": "妻万倍返还系统，先娶百朝国···",
+   "description": "妻万倍返还系统，先娶百朝国···",
+   "summary": "妻万倍返还系统，先娶百朝国···",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 38,
@@ -2972,7 +2973,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "被退婚、被家族抛弃的双F级··",
    "summary": "被退婚、被家族抛弃的双F级··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 39,
@@ -3000,12 +3001,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 39,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "国运求生游戏降临，气温骤降至",
-   "简介": "国运求生游戏降临，气温骤降至",
-   "description": "国运求生游戏降临，气温骤降至",
-   "summary": "国运求生游戏降临，气温骤降至",
+   "desc": "绝对零度，选手死亡所属国家··",
+   "简介": "绝对零度，选手死亡所属国家··",
+   "description": "绝对零度，选手死亡所属国家··",
+   "summary": "绝对零度，选手死亡所属国家··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 40,
@@ -3038,7 +3039,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "穿越者秦浩天生遭天道诅咒、实",
    "summary": "穿越者秦浩天生遭天道诅咒、实",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 41,
@@ -3066,12 +3067,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 41,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "山村，却发现整个村庄五年前··",
-   "简介": "山村，却发现整个村庄五年前··",
-   "description": "山村，却发现整个村庄五年前··",
-   "summary": "山村，却发现整个村庄五年前··",
+   "desc": "快递员张不二接到爷爷电话回到",
+   "简介": "快递员张不二接到爷爷电话回到",
+   "description": "快递员张不二接到爷爷电话回到",
+   "summary": "快递员张不二接到爷爷电话回到",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 42,
@@ -3099,12 +3100,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 42,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "百岁罗寿宴之日，秦长生满心期待",
-   "简介": "百岁罗寿宴之日，秦长生满心期待",
-   "description": "百岁罗寿宴之日，秦长生满心期待",
-   "summary": "百岁罗寿宴之日，秦长生满心期待",
+   "desc": "百岁寿宴之日，秦长生满心期待",
+   "简介": "百岁寿宴之日，秦长生满心期待",
+   "description": "百岁寿宴之日，秦长生满心期待",
+   "summary": "百岁寿宴之日，秦长生满心期待",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 43,
@@ -3137,7 +3138,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "罗柏是一位“全职业满级”的游戏",
    "summary": "罗柏是一位“全职业满级”的游戏",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 44,
@@ -3165,12 +3166,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 44,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "异次元融合世界，凶兽入侵，御",
-   "简介": "异次元融合世界，凶兽入侵，御",
-   "description": "异次元融合世界，凶兽入侵，御",
-   "summary": "异次元融合世界，凶兽入侵，御",
+   "desc": "兽师为保卫家园拼死而战，但··",
+   "简介": "兽师为保卫家园拼死而战，但··",
+   "description": "兽师为保卫家园拼死而战，但··",
+   "summary": "兽师为保卫家园拼死而战，但··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 45,
@@ -3198,12 +3199,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 45,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "凶兽入侵，人类觉醒各类职业·",
-   "简介": "凶兽入侵，人类觉醒各类职业·",
-   "description": "凶兽入侵，人类觉醒各类职业·",
-   "summary": "凶兽入侵，人类觉醒各类职业·",
+   "desc": "在一个游戏与现实交融的世界,",
+   "简介": "在一个游戏与现实交融的世界,",
+   "description": "在一个游戏与现实交融的世界,",
+   "summary": "在一个游戏与现实交融的世界,",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 46,
@@ -3236,7 +3237,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "少年陈凡觉醒“阿姨寻宝系统”",
    "summary": "少年陈凡觉醒“阿姨寻宝系统”",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 47,
@@ -3269,7 +3270,7 @@ window.BAIDU_RANK_JINGPIN = {
    "description": "江辰一眼回到80年代东北农",
    "summary": "江辰一眼回到80年代东北农",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 48,
@@ -3297,12 +3298,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 48,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "穿越成将门之后，正好赶上皇上",
-   "简介": "穿越成将门之后，正好赶上皇上",
-   "description": "穿越成将门之后，正好赶上皇上",
-   "summary": "穿越成将门之后，正好赶上皇上",
+   "desc": "收回兵权？还被退婚了？吹牛··",
+   "简介": "收回兵权？还被退婚了？吹牛··",
+   "description": "收回兵权？还被退婚了？吹牛··",
+   "summary": "收回兵权？还被退婚了？吹牛··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 49,
@@ -3330,12 +3331,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 49,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "穿越就遇到饥荒年，苏晓彤还来",
-   "简介": "穿越就遇到饥荒年，苏晓彤还来",
-   "description": "穿越就遇到饥荒年，苏晓彤还来",
-   "summary": "穿越就遇到饥荒年，苏晓彤还来",
+   "desc": "不及喘一口气，便带着柔弱的··",
+   "简介": "不及喘一口气，便带着柔弱的··",
+   "description": "不及喘一口气，便带着柔弱的··",
+   "summary": "不及喘一口气，便带着柔弱的··",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   },
   {
    "rank": 50,
@@ -3363,12 +3364,12 @@ window.BAIDU_RANK_JINGPIN = {
    "rank_prev": 50,
    "trend": "flat",
    "trend_text": "—",
-   "desc": "王明被前女友分手后，醉酒误入",
-   "简介": "王明被前女友分手后，醉酒误入",
-   "description": "王明被前女友分手后，醉酒误入",
-   "summary": "王明被前女友分手后，醉酒误入",
+   "desc": "",
+   "简介": "",
+   "description": "",
+   "summary": "",
    "board": "精品榜",
-   "date": "20261106"
+   "date": "20261107"
   }
  ],
  "genre_coverage": {
