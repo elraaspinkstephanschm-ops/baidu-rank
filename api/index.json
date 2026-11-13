@@ -1,7 +1,7 @@
 {
  "ok": true,
  "code": 0,
- "generated_at": "2026-11-11",
+ "generated_at": "2026-11-13",
  "platform": "百度",
  "channel": "短剧",
  "board_count": 3,
@@ -11,7 +11,7 @@
    "board": "热播榜",
    "board_code": "hot",
    "update_freq": "daily",
-   "latest_date": "20261111",
+   "latest_date": "20261113",
    "count": 50,
    "breakdown": {
     "漫剧": 50,
@@ -42,10 +42,12 @@
     "20261108",
     "20261109",
     "20261110",
-    "20261111"
+    "20261111",
+    "20261112",
+    "20261113"
    ],
-   "history_count": 22,
-   "genre_coverage": "20/50（回填 20）",
+   "history_count": 24,
+   "genre_coverage": "19/50（回填 19）",
    "dedup": [],
    "json": "api/rank/hot.json",
    "js": "api/rank/hot.js",
@@ -55,7 +57,7 @@
    "board": "新剧榜",
    "board_code": "new",
    "update_freq": "daily",
-   "latest_date": "20261111",
+   "latest_date": "20261113",
    "count": 50,
    "breakdown": {
     "漫剧": 50,
@@ -86,9 +88,11 @@
     "20261108",
     "20261109",
     "20261110",
-    "20261111"
+    "20261111",
+    "20261112",
+    "20261113"
    ],
-   "history_count": 22,
+   "history_count": 24,
    "genre_coverage": "1/50（回填 1）",
    "dedup": [
     {
@@ -135,7 +139,7 @@
    "board": "精品榜",
    "board_code": "jingpin",
    "update_freq": "weekly",
-   "latest_date": "20261111",
+   "latest_date": "20261113",
    "count": 50,
    "breakdown": {
     "漫剧": 50,
@@ -158,9 +162,11 @@
     "20261108",
     "20261109",
     "20261110",
-    "20261111"
+    "20261111",
+    "20261112",
+    "20261113"
    ],
-   "history_count": 14,
+   "history_count": 16,
    "genre_coverage": "0/50（回填 0）",
    "dedup": [],
    "json": "api/rank/jingpin.json",
